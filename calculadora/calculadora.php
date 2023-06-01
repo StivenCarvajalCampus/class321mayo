@@ -3,7 +3,9 @@
 	$operando2 = $_GET['operador2'];
 	$operador = $_GET['operador'];
 	
-	if($operador == "+"){
+		
+
+	if ($operador == "+"){
 		$solucion = $operando1 + $operando2;
 	}else if($operador == "-"){
 		$solucion = $operando1 - $operando2;
