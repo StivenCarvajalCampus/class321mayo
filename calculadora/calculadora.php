@@ -13,7 +13,7 @@
 		$solucion = $operando1 * $operando2;
 	}else if($operador == "/"){
         if($operando2 == 0){
-            echo "no se puede dividir por cero ";
+			$solucion= "no se puede dividir por cero";
         } else{
             $solucion = $operando1 / $operando2;}
 
